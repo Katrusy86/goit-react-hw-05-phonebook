@@ -1,0 +1,20 @@
+
+.phoneBookList {
+    overflow:hidden;
+    border-left:1px solid #ccc;
+    padding-bottom:30px;
+  }
+
+  .contact {
+    border-bottom:1px solid #ccc;
+    padding:20px;
+    margin:0;
+    font-size: 1.2em;
+  }
+
+  .button {
+    padding:10px 30px;
+    background:#f8a035;
+    color:#fff;
+    border:none;
+  }

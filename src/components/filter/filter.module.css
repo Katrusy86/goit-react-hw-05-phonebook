@@ -1,0 +1,20 @@
+.filter__label{
+    font-weight: 600;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+
+.filter__input {
+    display: flex;
+    padding: 10px 10px;
+    margin-top: 10px;
+}
+
+.addContactForm {
+    display:block;
+    margin:0 0 15px 0;
+    padding:10px;
+    width:250px;
+    border:1px solid #ccc;
+}

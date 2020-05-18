@@ -1,0 +1,22 @@
+
+ul > li:before {
+    content: "✔";
+    position: absolute;
+    left: 332px;
+    margin-top: 14px;
+    color: black;
+}
+
+.phoneBookList {
+    list-style: none;
+    overflow:hidden;
+    border-left:1px solid #ccc;
+    padding-bottom:30px;
+  }
+
+  .contact {
+    border-bottom:1px solid #ccc;
+    padding:20px;
+    margin:0;
+    font-size: 1.2em;
+  }

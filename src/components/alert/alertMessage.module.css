@@ -1,0 +1,33 @@
+.alert {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	width: 500px;
+	height: 150px;
+	background: #eee;
+	display: grid;
+	place-content: center;
+	grid-template-columns: 100px 1fr;
+	grid-template-rows: 1fr 30px;
+	border-radius: 5px;
+	border: 1px solid red;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+    background-color: rgb(248, 160, 53, 0.8);
+}
+
+.alert_title {
+    width: 250px;
+    text-align: center;
+    color: #000;
+    position: absolute;
+    right: 50%;
+    top: 0;
+    transform: translate(50%, 50%);
+    text-align: center;
+}
+
+
+
